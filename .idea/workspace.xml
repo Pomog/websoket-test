@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f5beed0-b395-4fc8-ae56-f3ea6679b75e" name="Changes" comment="">
-      <change afterPath="E:/WebSockets_In_Go/.idea/.gitignore" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/.idea/misc.xml" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/.idea/modules.xml" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/WebSockets_In_Go.iml" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/cmd/main.go" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/cmd/structs.go" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/go.mod" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/go.sum" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/index.html" afterDir="false" />
-      <change afterPath="E:/WebSockets_In_Go/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="0f5beed0-b395-4fc8-ae56-f3ea6679b75e" name="Changes" comment="initial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,8 +66,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720637658890</updated>
-      <workItem from="1720637660005" duration="5770000" />
+      <workItem from="1720637660005" duration="6119000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1720644043422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720644043422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +84,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
