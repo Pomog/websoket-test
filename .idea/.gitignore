@@ -1,0 +1,8 @@
+# Default ignored files
+/../../../:WebSockets_In_Go/.idea/shelf/
+/../../../:WebSockets_In_Go/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../../:WebSockets_In_Go/.idea/httpRequests/
+# Datasource local storage ignored files
+/../../../:WebSockets_In_Go/.idea/dataSources/
+/../../../:WebSockets_In_Go/.idea/dataSources.local.xml
