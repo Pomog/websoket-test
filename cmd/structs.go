@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"golang.org/x/net/websocket"
 	"io"
+	"time"
 )
 
 type Server struct {
@@ -45,12 +46,27 @@ func (s *Server) readLoop(ws *websocket.Conn) {
 			continue
 		}
 		msg := buf[:n]
-		fmt.Println(string(msg))
-		if _, err := ws.Write([]byte("the message received")); err != nil {
-			fmt.Println("Write error: ", err)
-			break
-		}
 
+		s.broadcast(msg)
 	}
+}
 
+func (s *Server) broadcast(b []byte) {
+	for ws := range s.connections {
+		go func(ws *websocket.Conn) {
+			if _, err := ws.Write(b); err != nil {
+				fmt.Println("write error: ", err)
+			}
+		}(ws)
+	}
+}
+
+func (s *Server) orderBook(ws *websocket.Conn) {
+	fmt.Println("New connection to orderBook form: ", ws.RemoteAddr())
+
+	for {
+		payload := fmt.Sprintf("orderBook data ->  %s\n", time.Now().UTC())
+		ws.Write([]byte(payload))
+		time.Sleep(time.Second)
+	}
 }
